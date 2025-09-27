@@ -55,6 +55,7 @@
 
 
 ## 목차
+- [빠른 시작 (Google Colab)](#빠른-시작-google-colab)
 - [설치](#설치)
 - [LLaVA 가중치](#llava-가중치)
 - [데모](#데모)
@@ -62,6 +63,37 @@
 - [데이터셋](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md)
 - [훈련](#훈련)
 - [평가](#평가)
+
+## 빠른 시작 (Google Colab)
+
+로컬 설치 없이 바로 LLaVA를 체험해보려면 Google Colab을 사용하는 것이 가장 쉬운 방법입니다.
+
+### 🚀 사용 가능한 Colab 노트북
+
+[camenduru의 LLaVA-Colab](https://github.com/camenduru/LLaVA-colab)에서 다양한 모델과 구성을 제공합니다:
+
+**13B 모델:**
+- LLaVA-13B (4비트) with Gradio - 웹 인터페이스 포함
+- LLaVA-13B (4비트) vanilla - 기본 버전
+- LLaVA-13B (4비트) caption - 이미지 캡션 생성 특화
+
+**7B 모델:**
+- LLaVA-7B (8비트) - 메모리 효율적
+- LLaVA-7B (16비트) - 최고 품질 (높은 RAM 필요: 22GB RAM, 14GB VRAM)
+
+### 💡 Colab 사용법
+
+1. 위 링크에서 원하는 모델의 Colab 노트북을 선택
+2. "Open in Colab" 버튼 클릭
+3. 런타임 > 런타임 유형 변경에서 GPU 선택 (T4 무료, V100/A100 Pro)
+4. 셀을 순서대로 실행
+
+### ⚡ 기타 빠른 체험 옵션
+
+- **Hugging Face Spaces**: [LLaVA 데모](https://huggingface.co/spaces/badayvedat/LLaVA) - 브라우저에서 바로 사용
+- **Replicate**: [LLaVA-13B](https://replicate.com/yorickvp/llava-13b) - API 형태로 사용 가능
+
+이 방법들은 로컬 환경 설정 없이 LLaVA의 기능을 빠르게 테스트하고 평가하는 데 매우 유용합니다.
 
 ## 설치
 
